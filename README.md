@@ -19,22 +19,26 @@ The script generates two types of visual outputs:
 
 ### Run Commands
 1. Clone the repository
-git clone <your-repo-link>
+git clone <https://github.com/Madhu-1106/Image-Sharpness-Map-Generator.git>
 cd Sharpness-Map-Generator
 
 2. Install dependencies
+   
 pip install -r requirements.txt
 
-3. Launch the Jupyter Notebook
+4. Launch the Jupyter Notebook
+   
 jupyter notebook sharpness_map.ipynb
 
-4. Load input image
+6. Load input image
+   
 Place images inside:
 
 Input Imgs/
 (Notebook reads the image path directly.)
 
 5. Execute all cells
+   
 Run → Run All
 
 This generates:
